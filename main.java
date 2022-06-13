@@ -13,7 +13,7 @@ public class Helloworld {
 
 			System.out.printf("Cores: Branco(0); Preto(1); Vermelho(2); e Bege(3).\nInforme as cores da %da. linha:\n",
 					(n1 + 1));//informacoes exibidas ao usuario e a contagem
-			for (n2 = 0; n2 16; n2) {//estrutura de repeticao com colunas da matriz
+			for (n2 = 0; n2 < 16; n2) {//estrutura de repeticao com colunas da matriz
 				System.out.printf("m[%d][%d] = ", i, j);//receber coordenada da matriz
 				m[n1][n2] = ler.nextInt();//guardar valor em coordenada
 			}
