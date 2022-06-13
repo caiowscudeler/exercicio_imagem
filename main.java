@@ -15,14 +15,14 @@ public class Helloworld {
 					(n1 + 1));//informacoes exibidas ao usuario e a contagem
 			for (n2 = 0; n2 16; n2) {//estrutura de repeticao com colunas da matriz
 				System.out.printf("m[%d][%d] = ", i, j);//receber coordenada da matriz
-				m[i][j] = ler.nextInt();//guardar valor em coordenada
+				m[n1][n2] = ler.nextInt();//guardar valor em coordenada
 			}
 			System.out.printf("\n");//pular linha
 		}
 		System.out.printf("\n");//pular linha
 	
-		for (i = 0; i < 16; i++) {//estrutura de repeticao com linhas da matriz
-			for (j = 0; j < 16; j++) {//estrutura de repeticao de colunas
+		for (n1 = 0; n1 < 16; n1++) {//estrutura de repeticao com linhas da matriz
+			for (n2 = 0; n2 < 16; n2++) {//estrutura de repeticao de colunas
 				System.out.printf("%d ", m[i][j]);//valor de acordo com as coordenadas
 			}
 			System.out.printf("\n");//pular linha
